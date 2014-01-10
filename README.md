@@ -42,16 +42,21 @@ If you want a button to show the `NavigationScreen`, just bind an action for it:
 
 ```ruby
 # Create a button (I use FontAwesome for the bars icon)
-menu_btn = UIButton.buttonWithType UIButtonTypeRoundedRect
+  def add_menu_button
+    menu_btn = UIButton.buttonWithType UIButtonTypeRoundedRect
+    menu_btn.setTitle FontAwesome.icon('bars'), forState: UIControlStateNormal
+    menu_btn.setTitleColor hex_color('999999'), forState: UIControlStateNormal
+    
+    set_attributes menu_btn, {
+      font:  FontAwesome.fontWithSize(20.0),
+      frame: CGRectMake(0, 0, 30, 30)
+    }
 
-add menu_btn, {
-  font:  FontAwesome.fontWithSize(20.0),
-  frame: CGRectMake(0, 0, 30, 30)
-}
+    @left_nav = UIBarButtonItem.alloc.initWithCustomView(menu_btn)
+    self.navigationItem.leftBarButtonItem = @left_nav
 
-menu_btn.setTitle FontAwesome.icon('bars'), forState: UIControlStateNormal
-
-App.delegate.bind_reveal_screen_button menu_btn
+    App.delegate.bind_reveal_screen_button menu_btn
+  end
 ```
 
 ## Contributing
