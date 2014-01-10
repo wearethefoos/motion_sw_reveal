@@ -32,7 +32,7 @@ def on_load
   #  - NavigationScreen in the background.
   #  - HomeScreen as front screen.
   #
-  open_reveal_screen NavigationScreen.new, HomeScreen.new
+  open_reveal_screen NavigationScreen.new, HomeScreen.new(nav_bar: true)
 end
 ```
 
