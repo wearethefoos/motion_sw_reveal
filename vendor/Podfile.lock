@@ -1,0 +1,10 @@
+PODS:
+  - SWRevealViewController (1.0.8)
+
+DEPENDENCIES:
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  SWRevealViewController: 5688d9d017e228c9edd92db359f670d8c47ab8e6
+
+COCOAPODS: 0.29.0
