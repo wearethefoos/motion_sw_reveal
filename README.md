@@ -1,6 +1,6 @@
 # MotionSwReveal
 
-A ProMotion gem for [SWRevealViewController][swreveal] by [John Lluch][john_lluch],
+A ProMotion wrapper for [SWRevealViewController][swreveal] by [John Lluch][john_lluch],
 heavily inspired on [Promotion Slide Menu][promotion-slide-menu] by [Matt Brewer][matt_brewer] that depends on [PKRevealController][pkrevealcontroller] by [Phillip Kluz][p_kluz]. I could not get
 Promotion Slide Menu working on [RubyMotion][rubymotion] and [ProMotion 1.1+][pro_motion]. I have
 used SWRevealViewController before and I like it's ease of usage. This gem should be easy to use
