@@ -1,7 +1,7 @@
 describe MotionSWReveal::AppDelegate do
 
   before do
-    @delegate = App.delegate
+    @delegate = UIApplication.sharedApplication.delegate
   end
 
   it "should have a 'reveal_screen' attribute" do

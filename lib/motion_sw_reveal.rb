@@ -1,5 +1,4 @@
 require 'motion-cocoapods'
-require 'bubble-wrap'
 require 'ProMotion'
 
 unless defined?(Motion::Project::Config)

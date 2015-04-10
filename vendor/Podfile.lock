@@ -5,6 +5,6 @@ DEPENDENCIES:
   - SWRevealViewController
 
 SPEC CHECKSUMS:
-  SWRevealViewController: 5688d9d017e228c9edd92db359f670d8c47ab8e6
+  SWRevealViewController: 3a2b0d424b1f225d61ea5918416273936b3b6973
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.36.3

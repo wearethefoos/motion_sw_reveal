@@ -1,7 +1,7 @@
 describe MotionSWReveal::RevealScreen do
 
   before do
-    @delegate = App.delegate
+    @delegate = UIApplication.sharedApplication.delegate
 
     @rear  = LeftNavScreen.new
     @right = RightNavScreen.new
